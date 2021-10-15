@@ -1,16 +1,15 @@
 /* Basislayout */
-
 html, body {
     height: 100%;
     padding: 0;
+    margin-top: 0;
     background-color: #111111;
-    
     color: #5050A0;
     font: Verdana, Arial, Sans-Serif;
 }
 
-
 main {
+    padding: 0px;
     margin: 0 auto;
     width: 700px;
     position: relative;
@@ -84,7 +83,3 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
-
-
-
-
