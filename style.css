@@ -81,5 +81,13 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    color: black; 
+    background-color: #5050A0;
+}
+
+/* Flexbox */
+.flexcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
