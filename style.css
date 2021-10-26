@@ -28,6 +28,7 @@ header {
 
 
 footer {
+    clear: both;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -85,9 +86,10 @@ nav li a.active {
     background-color: #5050A0;
 }
 
-/* Flexbox */
-.flexcontainer {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+.nav2img {
+    width: 200px;
+}
+
+.nav2imgSpreader {
+    width: 33px
 }
