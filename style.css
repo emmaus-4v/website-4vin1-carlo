@@ -4,14 +4,20 @@
 }
 
 /* Basislayout */
-html, body {
+html {
     height: 100%;
     padding: 0;
     margin-top: 0;
     color: var(--Maincolor);
     font: Verdana, Arial, Sans-Serif;
     background-image: url(afbeeldingen/dirtrallywallpaper.jpg);
+    overflow-y: hidden;
 }
+
+body {
+    overflow-y: scroll;
+}
+
 
 main {
     padding: 0px;
@@ -61,16 +67,24 @@ img.zweefLinks {
 }
 
 a {
-    color: var(--Maincolor);
+    color: #ff0000;
     text-decoration: none;
 }
 
 a:hover {
+    color: #aa0000;
     text-decoration: underline;
+    size: 200%;
 }
 
 #headerimage {
     margin: 40px 200px 30px 200px;
+}
+
+.carImage {
+    float: right;
+    border: var(--Maincolor) solid 1px;
+    margin: 10px;
 }
 
 
