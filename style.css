@@ -4,29 +4,35 @@
 }
 
 /* Basislayout */
-html {
+html, body {
     height: 100%;
     padding: 0;
-    margin-top: 0;
+    margin: 0;
     color: var(--Maincolor);
     font: Verdana, Arial, Sans-Serif;
-    background-image: url(afbeeldingen/dirtrallywallpaper.jpg);
+}
+
+.backgroundimage {
+    position: absolute;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 
 body {
-    overflow-y: scroll;
+    position: inherit;
 }
 
-
 main {
-    padding: 0px;
+    padding: 0 auto 0 0;
     margin: 0 auto;
     width: 700px;
     padding: 0px 10px;
     min-height: 100%; 
     position: relative;
     background-color: #333333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
 }
 
 
