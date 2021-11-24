@@ -10,17 +10,16 @@ html, body {
     margin: 0;
     color: var(--Maincolor);
     font: Verdana, Arial, Sans-Serif;
-    overflow-x: hidden;
-    overflow-y: hidden;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1,75;
     font-size: 18px;
 }
 
-.backgroundimage {
-    position: absolute;
-    overflow-x: hidden;
-    overflow-y: hidden;
+body {
+    background-image: url('afbeeldingen/dirtrallywallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 main {
@@ -31,9 +30,7 @@ main {
     min-height: 100%; 
     background-color: #333333;
     overflow-x: hidden;
-    overflow-y: scroll;
     position: relative;
-    overflow-y: hidden;
 }
 
 article {
@@ -48,8 +45,6 @@ header {
 footer {
     clear: both;
     width: 100%;
-    position: absolute;
-    bottom: 0;
     text-align: center;
     color: var(--Maincolor);
 }
@@ -99,7 +94,7 @@ nav ul {
     margin: auto;
     padding: 0;
     background-color: #222222;
-    border: 1px solid var(--Maincolor);
+    border: 1px solid "black";
     overflow: hidden;
 }
 
