@@ -85,12 +85,13 @@ a:hover {
     float: right;
     border: var(--Maincolor) solid 1px;
     margin: 0px 10px!important;
+    background-color: var(--Maincolor);
 }
 
 .carDiv {
     clear: both;
-    margin-top: 10px;
-    min-height: 150px;
+    margin: 10px 0px 10px 0px;
+    height: 160px;
 }
 
 
